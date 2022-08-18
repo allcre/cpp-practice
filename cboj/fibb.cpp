@@ -8,10 +8,10 @@ int main() {
     int x = 0;
     cin >> n;
 
-    if (n == 1) {
+    if (n == 0) {
         cout << 0;
         return 0;
-    } else if (n == 2) {
+    } else if (n == 1) {
         cout << 1;
         return 0;
     }
