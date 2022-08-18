@@ -1,4 +1,4 @@
-#include <iostream> // fails sometimes idk
+#include <iostream> // fixed
 using namespace std;
 
 int main() {
@@ -24,7 +24,7 @@ int main() {
         area += sums[k] * (h/2);
     }
 
-    cout << area;
+    cout << fixed << area;
     
     return 0;
 }
